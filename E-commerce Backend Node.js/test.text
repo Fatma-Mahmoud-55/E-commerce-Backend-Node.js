@@ -1,0 +1,168 @@
+product 
+
+get {
+
+ "ItemNameEn": "mobile",
+    "ItemNameAr": "هاتف",
+    "Price": 100,
+    "BrandEn": "samsung"
+    "BrandAr": "سامسونج",
+    "DescriptionEn": "samsung mobile",
+    "DescriptionAr": "هاتف سامسونج",
+    "Images": [],
+    "_id": "643c2e794e768d424288644a",
+    "createdAt": "2023-04-16T17:20:57.116Z",
+    "updatedAt": "2023-04-16T17:20:57.116Z",
+    "__v": 0
+
+}
+get by id {
+        "_id": "643c2f904e768d4242886455",
+    "ItemNameEn": "mobile",
+    "ItemNameAr": "هاتف",
+    "Price": 100,
+    "BrandAr": "سامسونج",
+    "DescriptionEn": "samsung mobile",
+    "DescriptionAr": "هاتف سامسونج",
+    "Images": [],
+    "createdAt": "2023-04-16T17:25:36.602Z",
+    "updatedAt": "2023-04-16T17:25:36.602Z",
+    "__v": 0
+}
+up date by id {
+        "acknowledged": true,
+    "modifiedCount": 1,
+    "upsertedId": null,
+    "upsertedCount": 0,
+    "matchedCount": 1
+}
+delete by id{
+ "acknowledged": true,
+    "deletedCount": 1
+}////////////////////////////////////////////////////////////////////////////////
+
+Offers{
+
+    "You Must Be Authentication"
+}
+
+offers post{
+    {
+    "nameEn": "motherDay",
+    "nameAr": "عيد الام",
+    "descriptionEn": "offers of mother day",
+    "descriptionAr": "عرض عيد الام",
+    "_id": "643c36fe7b323af32e7b0a54",
+    "createdAt": "2023-04-16T17:57:18.555Z",
+    "updatedAt": "2023-04-16T17:57:18.555Z",
+    "__v": 0
+}
+}
+offers get{
+     {
+        "_id": "643c36fe7b323af32e7b0a54",
+        "nameEn": "motherDay",
+        "nameAr": "عيد الام",
+        "descriptionEn": "offers of mother day",
+        "descriptionAr": "عرض عيد الام",
+        "createdAt": "2023-04-16T17:57:18.555Z",
+        "updatedAt": "2023-04-16T17:57:18.555Z",
+        "__v": 0
+    }
+}
+offers up date{
+      "acknowledged": true,
+    "modifiedCount": 1,
+    "upsertedId": null,
+    "upsertedCount": 0,
+    "matchedCount": 1
+}
+offers delete{
+    "acknowledged": true,
+    "deletedCount": 1
+}
+
+user register
+
+post user error{
+"E11000 duplicate key error collection: group5.users index: firstName_1 dup key: { firstName: \"ahmed\" }"
+ 
+}
+
+post user{
+        "firstName": "amr",
+    "lastName": "amr",
+    "email": "ahmedd@gmail.com",
+    "password": "$2b$10$S6I0aINTLQmtWjEcdkWTluAU7ergwhbjsENFe5w9vdGwmPdYgEhYi",
+    "isAdmin": false,
+    "isActive": true,
+    "_id": "643c321f2ba91b287d217e45",
+    "createdAt": "2023-04-16T17:36:31.215Z",
+    "updatedAt": "2023-04-16T17:36:31.215Z",
+    "__v": 0
+}
+get user{
+    "User validation failed: email: User Email required"
+    "E11000 duplicate key error collection: group5.users index: email_1 dup key: { email: \"ahmedmagdy@gmail.com\" }"
+}
+update user
+    
+    "status": "success",
+    "newData": {
+        "firstName": "aaaa",
+        "lastName": "ahmed",
+        "email": "ahmedmagdy@gmail.com",
+        "password": "$2b$10$Jx.pSqRaoxDcR1EBCAtaN.j7J.d4Dwr8UysQ0epOrI1tgtAIY1bWu"
+    }
+
+
+    order {
+
+
+        order get {
+            "not Admin"
+        }
+        post{
+                "shippingAddressEn": "alex",
+    "shippingAddressAr": "الاسكندرية",
+    "cityEn": "alexandria",
+    "cityAr": "الاسكندريه",
+    "countryEn": "egypt",
+    "countryAr": "مصر",
+    "phone": "011112555555",
+    "statusEn": "Pending",
+    "statusAr": "قيد الإنتظار",
+    "totalPrice": 5551155,
+    "_id": "643c3a2510dca5430872bac0",
+    "products": [],
+    "createdAt": "2023-04-16T18:10:45.846Z",
+    "updatedAt": "2023-04-16T18:10:45.846Z",
+    "__v": 0
+        }
+    }
+    //////////////////////
+
+
+    on load///////////
+    register
+    home {slider best sec }
+    cart 
+    product 
+    prouduct Details
+    wish list
+    not found
+    header
+    Slider
+    order
+    rating
+
+///////////////////////on event//////
+
+
+  on event  
+register submit
+login
+add to wish list
+add to cart
+add rate 
+log out 
